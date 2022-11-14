@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    height: 100%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    align-items: center;
+}
+
+nav img {
+    margin: 20px 20px auto 40px;
+    width: 64px;
+}
+
+nav ul { 
+    margin-left: auto;
+    align-items: center;
+}
+
+nav li {
+    float: right;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#about {
+    margin-top: 10px;
+    padding: 3em;
+    background-color: #db9c9c;
+    min-height: 75vh;
+    display: flex;
+    text-align: center;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+#about p {
+    max-width: 120vh;
+    text-align: justify; 
+}
+
+.map {
+    background-color: #9cb6db;
+    padding: 3em;
+    display: flex;
+    text-align: center;   
+    min-height: 71vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map p{
+    max-width: 120vh;
+    text-align: justify; 
+}
+
+.scheduling {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+form {
+    padding: 2em;
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+form input {
+    display: block;
+    padding: 1.1em;
+    width: 50vh;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #9cb6db;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.brand {
+    width: 100%;
+    display: block;
+}
+
+footer img {
+    padding: 2em;
+    width: 64px;
+    display: block;
+    margin: 0 auto;
+}
+
+.brand p {
+    padding: 20px;
+    font-size: 32px;
+}
+
+.social ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social li{
+    display: flex;
+    flex-direction: row;
+}
+
+.social img {
+    width: 24px;
+}
+
+.info ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.info p {
+    color: crimson;
+}
+
+.info img {
+    width: 24pxpx;
+}
